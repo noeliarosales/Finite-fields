@@ -4,12 +4,8 @@ In this project, I implemented the basic operations of **finite fields** and **r
 
 The project covers the following algebraic structures:
 
-- Finite fields: `Fp`, where \( p \) is prime
-- Polynomial rings: `Fp[x]`
-- Finite field extensions: `Fq`, defined as  
-  \[
-  F_q = F_p[x] / \langle g(x) \rangle
-  \]
-  where \( g(x) \) is an irreducible polynomial over \( F_p \)
-- Polynomial rings over finite fields: `Fq[x]`
+- The finite field: `Fp`, where \( p \) is prime
+- The polynomial ring: `Fp[x]`
+- The extension field `Fq`, defined as the quotient `Fp[x] / <g(x)>`, where `g(x)` is an irreducible polynomial over `Fp`
+- The polynomial ring: `Fq[x]`
 The goal of the project is to provide a clear and modular implementation of these algebraic structures.
