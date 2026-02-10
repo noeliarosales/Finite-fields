@@ -2,7 +2,7 @@
 
 In this project, I implemented the basic operations of **finite fields** and **rings** using **object-oriented programming (OOP)**.
 
-Let \( p \) be a prime number. The project covers the following algebraic structures:
+The project covers the following algebraic structures:
 
 - Finite fields: `Fp`, where \( p \) is prime
 - Polynomial rings: `Fp[x]`
